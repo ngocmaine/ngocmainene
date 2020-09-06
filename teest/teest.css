@@ -1,0 +1,306 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#34495E;
+    width: 100%;
+    margin: auto;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    width: 100%;
+    /* margin: 0px 0px 0px 0px; */
+    height: 85px;
+    background-color: #34495e;
+}
+
+
+.logo{
+    width: 14%;
+    padding: 10px;
+}
+
+.logoimg{
+    width: 100%;
+
+}
+
+.navigator{
+    width: 74%;
+    padding: 0px 10px 0px 10px;
+    font-size: 27px;
+    text-decoration: none;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Georgia, serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon1-header{
+    margin: 28px 0px 0px 10px;
+}
+
+.icon2-header{
+    margin: 28px 0px 0px 0px;
+}
+
+.icon2-header, .icon1-header{
+    width: 6%; 
+    font-size: 1.8rem!important;
+    font-weight: 900;
+}
+
+.GT{
+    background-color: #34495E;
+    margin: 0px 0px 100px 0px;
+
+}
+
+.gthieu{
+    color: #FEF5E7;
+}
+
+h1{
+    
+    padding: 20px;
+}
+
+.gt1{
+    padding-top: 120px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    font-size: 80px;
+    font-family: garamond;
+    text-align: center;
+    background-color: rgba(47, 79, 119, 0.59);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-weight: 500;
+}
+
+.gt1 p{
+    align-items: center;
+}
+
+.anh1{
+    width: 100%;
+    z-index: -1;
+    height: 600px;
+}
+
+.content1{
+    border: 2px double #efa1b3;
+    border-radius: 15px;
+    margin: 0px 0px 100px 0px;
+}
+
+.tenhang{
+    margin: 40px;
+}
+
+.blackpink{
+    margin: auto;
+    color: #efa1b3;
+    font-size: 40px;
+}
+
+.carditem{
+    width: 30%;
+    margin: 20px;
+}
+
+.item{
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.img{
+    width: 100%;
+    margin: auto;
+    height: 470px;
+}
+
+.info1{
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    background-color: #efa1b3;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.xemthem{
+    padding: 25px 25px 0px 900px;
+}
+
+.khoangcach{
+    height: 50px;
+}
+
+.content2{
+    border: 2px double #E37248 ;
+    border-radius: 15px;
+    margin: 0px 0px 100px 0px;
+}
+
+.winner{
+    margin: auto;
+    color:#E37248 ;
+    font-size: 40px;
+}
+
+.info2{
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    background-color: #E37248  ;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.content3{
+    border: 2px double #F9E79F;
+    border-radius: 15px;
+    margin: 0px 0px 100px 0px;
+}
+
+.bigbang{
+    margin: auto;
+    color:#F9E79F;
+    font-size: 40px;
+}
+
+.info3{
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    background-color: #F9E79F ;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.footer{
+    background-color: #808B96;
+    width: 100%;
+}
+
+.phan1, .phan2, .phan3{
+    width:33.3333%
+}
+
+.dong1{
+    margin-top: 40px;
+}
+
+h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+}
+
+li{
+    line-height: 1.75;
+}
+
+.trangkhac{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.dong3{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    color: white;
+}
+
+.item:hover .img{
+    transform: scale(1.2);
+}
+
+.img-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.cardlist{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #2471A3;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #2471A3;
+  }
+
+  .item:hover .info3{
+      background-color: #F5B041;
+  }
+  .item:hover .info2{
+    background-color:#C26B4A ;
+}
+.item:hover .info1{
+    background-color: #EC7063;
+}
+
+.dep{
+    position: relative;
+    width: 100%;
+}
+
+img{
+    object-fit: cover;
+}
